@@ -1,0 +1,206 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, Courier New, monospace;
+}
+.navbar {
+  background-color: #000;
+}
+.mainlogo {
+  display: flex;
+}
+.image1 {
+  height: 100px;
+}
+.image2 {
+  height: 70px;
+  margin: 15px;
+}
+.searchbox {
+  color: #fff;
+  background-color: initial;
+  border: 0 solid #fff;
+  margin-left: 10px;
+  padding: 5px 10px;
+  font-size: 20px;
+}
+nav {
+  display: flex;
+  width: 100%;
+  position: relative;
+}
+.rightsidebar {
+  width: 40%;
+  position: absolute;
+  right: 0;
+  height: 100%;
+  align-items: center;
+  display: flex;
+}
+::-webkit-input-placeholder {
+  color: #fff;
+  opacity: 1;
+}
+::placeholder {
+  color: #fff;
+  opacity: 1;
+}
+::ms-input-placeholder {
+  color: #fff;
+}
+.enclosingsearch_box {
+  border: 2px solid #fff;
+  color: #fff;
+  height: 40px;
+  width: 270px;
+  display: flex;
+  align-items: center;
+}
+#search {
+  margin-left: 10px;
+  font-size: 20px;
+}
+.bagsvg svg {
+  fill: #fff;
+  height: 40px;
+  width: 30px;
+  margin-left: 30px;
+}
+.loginimgdiv {
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  border: 0 solid #fff;
+  border-radius: 50%;
+  margin-left: 30px;
+}
+.dropdownarrow {
+  margin-left: 20px;
+}
+.dropdownarrow svg {
+  fill: #fff;
+  width: 20px;
+  height: 20px;
+}
+.menulist {
+  background-color: #1b1b1b;
+  display: flex;
+  color: #fff;
+  padding-left: 10px;
+  position: relative;
+}
+.menulist div {
+  margin: 8px 10px;
+}
+.crescendo,
+.forum,
+.grouplist,
+.lagrace,
+.members,
+.otherevents {
+  display: none;
+}
+.google_acc_bar {
+  width: -webkit-max-content;
+  width: max-content;
+  border: 0.5px solid #fff;
+  background-color: #000;
+  color: #fff;
+  position: absolute;
+  top: 80px;
+  right: 35px;
+  padding: 12px 10px;
+}
+.google_acc_bar div {
+  padding: 10px 0;
+}
+.logout_linebrk {
+  margin: 8px 0;
+}
+.opened {
+  display: block !important;
+}
+.closed {
+  display: none !important;
+}
+.google_acc_bar {
+  display: none;
+}
+* {
+  outline: none;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+* {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+body {
+  background-color: #000;
+  color: #fff;
+}
+h1 {
+  font-size: 70px;
+  padding-top: 7%;
+}
+h5 {
+  font-size: 20px;
+  padding-top: 2%;
+}
+p {
+  padding: 3% 25%;
+  line-height: 30px;
+  letter-spacing: 1.5px;
+  word-spacing: 1.2;
+}
+.aboutimg {
+  height: 350px;
+  width: 85vw;
+  margin: 0 7.5vw;
+}
+.story {
+  font-size: 55px;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.mem_img {
+  width: 30vw;
+  padding-top: 5vh;
+}
+.all_members {
+  width: 30vw;
+  margin-left: 1.5vw;
+  margin-right: 1.5vw;
+}
+*,
+.member_desc {
+  padding: 0;
+}
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+.fcbitspilani {
+  margin-top: 20vh;
+  font-size: 30px;
+  text-align: center;
+}
+.fcemail {
+  margin-top: 5vh;
+  font-size: 18px;
+  text-align: center;
+}
+.fccopyright {
+  margin-top: 8vh;
+  text-align: center;
+  margin-bottom: 5vh;
+}
+/*# sourceMappingURL=main.35a81d0b.chunk.css.903d1925591e.map */
