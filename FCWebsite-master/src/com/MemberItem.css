@@ -1,0 +1,17 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.mem_img{
+    width:30vw;
+    padding-top: 5vh;
+}
+.all_members{
+    width:30vw;
+    margin-left: 1.5vw;
+    margin-right: 1.5vw;
+}
+.member_desc{
+    padding:0 0;
+}

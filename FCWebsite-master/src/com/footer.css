@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.fcbitspilani{
+    margin-top:20vh;
+    font-size: 30px;
+    text-align: center;
+}
+.fcemail{
+    margin-top: 5vh;
+    font-size: 18px;
+    text-align: center;
+}
+.fccopyright{
+    margin-top: 8vh;
+    text-align: center;
+    margin-bottom: 5vh;
+}

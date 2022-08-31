@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    outline:none;
+}
+*::-webkit-scrollbar {
+    display: none;
+}
+* {
+    -ms-overflow-style: none;  
+    scrollbar-width: none;
+}
+body{
+    background-color: black;
+    color:white;
+}
+h1{
+    font-size: 70px;
+    padding-top:7%;
+}
+h5{
+    font-size:20px;
+    padding-top: 2%;
+}
+p{
+    padding:3% 25%;
+    line-height: 30px;
+    letter-spacing: 1.5px;
+    word-spacing: 1.2;
+}
+.aboutimg{
+    height:350px;
+    width:85vw;
+    margin:0 7.5vw;
+}
+.story{
+    font-size: 55px;
+}
